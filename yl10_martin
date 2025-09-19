@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#skript, mis küsib kasutajanime ja parooli ning loob uue kasutaja.
+echo "Kasutajanimi?"
+read -p "Kasutaja: " user
+echo "Parool?"
+read -sp "Parool: " password
